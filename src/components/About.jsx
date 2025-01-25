@@ -47,8 +47,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-I am a skilled backend developer with 2 years of experience specializing in Node.js and frameworks like Three.js.
- I am proficient in JavaScript and have a strong passion for building efficient, scalable, and user-friendly solutions that solve real-world problems. Being a quick learner, I excel at collaborating with clients and teams to bring innovative ideas to life.
+I am a skilled Backend Developer with 2 years of experience specializing in Node.js. Proficient in JavaScript, I have a strong passion for building efficient, scalable, and user-friendly solutions that solve real-world problems.
+
+Currently, I work at The Mind Collective, located in Pitampura, where I focus on backend development, primarily using MongoDB as my database. My ability to quickly learn and adapt allows me to collaborate effectively with clients and teams, turning innovative ideas into reality.
+
+I thrive on challenges and consistently strive to deliver high-quality solutions that meet both user and business needs.
+
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

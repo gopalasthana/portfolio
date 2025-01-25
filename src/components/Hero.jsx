@@ -14,7 +14,7 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div>
+        {/* <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Gopal Asthana</span>
           </h1>
@@ -22,7 +22,17 @@ const Hero = () => {
             I develop Mern Stack , user <br className='sm:block hidden' />
             interfaces and web applications
           </p>
-        </div>
+        </div> */}
+        <div>
+  <h1 className={`${styles.heroHeadText} text-white`}>
+    Hi, I'm <span className='text-[#915EFF]'>Gopal Asthana</span>
+  </h1>
+  <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+    I specialize in backend development with Node.js, building robust <br className='sm:block hidden' />
+    APIs and scalable web applications using the MERN stack.
+  </p>
+</div>
+
       </div>
 
       <ComputersCanvas />

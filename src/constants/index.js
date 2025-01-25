@@ -45,10 +45,10 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
   {
     title: "Backend Developer",
     icon: backend,
@@ -96,51 +96,82 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
+  // {
+  //   title: "Node.js Developer",
+  //   company_name: "The Mind Collective",
+  //   icon: starbucks,
+  //   iconBg: "#383E56",
+  //   date: "May 2023 - Till now",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+
   {
     title: "Node.js Developer",
     company_name: "The Mind Collective",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "May 2023 - Till now",
+    date: "May 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining scalable backend systems and APIs using Node.js, Express, and MongoDB.",
+      "Collaborating with cross-functional teams, including designers, product managers, and front-end developers, to deliver high-quality products.",
+      "Optimizing server-side performance and implementing secure and efficient data handling processes.",
+      "Participating in code reviews, mentoring junior developers, and contributing to best practices for development and deployment.",
+      "Integrating third-party services, such as Cloudinary and external APIs, to enhance application functionality.",
+      "Ensuring seamless communication between the backend and front-end systems for a robust user experience.",
     ],
   },
   {
-    title: "Node.js  Developer",
+    title: "Node.js Developer",
     company_name: "DeepNap Softech",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Dec 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained scalable backend services and APIs using Node.js and Express.",
+      "Integrated databases like MongoDB and optimized queries for efficient data retrieval and storage.",
+      "Collaborated with frontend developers to implement seamless API integrations and ensure end-to-end functionality.",
+      "Participated in architectural discussions and designed solutions to meet project requirements.",
+      "Ensured application performance and reliability through testing, debugging, and continuous monitoring.",
+      "Optimized server-side operations to reduce latency and improve response times.",
     ],
-  },
+  }
+  
+  // {
+  //   title: "Node.js  Developer",
+  //   company_name: "DeepNap Softech",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "Dec 2022 - May 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   
 ];
 
@@ -191,7 +222,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gopalasthana",
   },
   {
     name: "Job IT",
@@ -212,7 +243,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gopalasthana",
   },
   {
     name: "Trip Guide",
@@ -233,7 +264,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gopalasthana",
   },
 ];
 
