@@ -217,7 +217,7 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Message</span>
+            <span className="text-white font-medium mb-4">Requirement</span>
             <textarea
               rows={7}
               name="message"
@@ -232,7 +232,7 @@ const Contact = () => {
             type="submit"
             className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
           >
-            Send to WhatsApp
+            Submit
           </button>
         </form>
       </motion.div>
